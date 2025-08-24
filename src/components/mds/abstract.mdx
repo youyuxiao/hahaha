@@ -1,3 +1,11 @@
 # Abstract
 
-Aute amet minim mollit nisi adipisicing cupidatat. Duis sit tempor consequat ea nisi qui consequat deserunt. Officia duis sit mollit dolor officia occaecat. Minim aute excepteur nostrud adipisicing magna nisi amet. Laborum aliqua ut ex cillum qui ipsum tempor officia sunt. Reprehenderit est ex sit fugiat laborum reprehenderit proident deserunt sint pariatur cillum voluptate irure. Voluptate laboris velit veniam exercitation sunt eiusmod occaecat velit fugiat ad.
+We present VirtualSqueeze, a novel framework that enables
+pressure-driven visual and haptic interaction with deformable virtual objects in real time. Leveraging per-finger pressure data captured from a SenseGlove, our system maps individualized squeezing gestures to physically plausible object deformations. These deformations are computed using either high-fidelity simulations or
+learned graph-based models and serve as conditioning signals for a
+generative diffusion model (AnimateDiff), which synthesizes temporally coherent visual effects. To close the interaction loop, VirtualSqueeze delivers deformation-aware haptic feedback—including
+resistive force and vibrotactile cues—computed from the simulated
+physical state of the object. We evaluate the system through quantitative metrics and user studies, demonstrating its effectiveness in
+reproducing realistic deformation dynamics, generating perceptually convincing visual sequences, and enhancing user immersion
+through tactile feedback. While limitations remain in terms of object generalization and multi-view synthesis, our findings establish VirtualSqueeze as a compelling foundation for personalized,
+pressure-based interaction in immersive virtual environments.

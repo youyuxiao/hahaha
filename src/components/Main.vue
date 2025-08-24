@@ -16,12 +16,13 @@ import Comment from './sections/Comment.vue'
 import Latex from './sections/Latex.vue'
 import Model3D from './sections/Model3D.vue'
 import GaussianSplats3D from './sections/GaussianSplats3D.vue'
-
+import Method from './sections/Method.vue'; // 新增引入
 export default {
   components: {
     Title,
     Abstract,
-    Markdown,
+    Method,
+    // Markdown,
     BibTeX,
     Carousel,
     Video,
@@ -45,7 +46,8 @@ export default {
   <Carousel/>
   <Video/>
   <Abstract/>
-  <Markdown/>
+  <Method/>
+<!--  <Markdown/>-->
   <Latex/>
   <Table/>
   <Collapse/>
